@@ -1,7 +1,7 @@
 ShoutJam
 ==========
 
-Source code for an SMS social network that I operated in Feb 2009 for around 3 weeks after which I had to shutdown due to compelling reasons.
+Source code for an SMS social network that I operated in Feb 2009 for around 3 weeks, after which I had to shutdown due to compelling reasons.
 
 * **s60_server.py** : python script to run on any Symbian S60 2nd edition phone. Mine was a Nokia N70 (S60 2nd edition FeaturePack-3). You'll need *Python for Symbian S60* (PyS60) on the phone to run this.
 
