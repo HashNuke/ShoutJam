@@ -1,18 +1,14 @@
 ShoutJam
 ==========
 
-This repo contains the source code for a small-scale SMS social network that I operated in Feb 2009 for around 3 weeks after which I had to shutdown due to compelling reasons.
+Source code for an SMS social network that I operated in Feb 2009 for around 3 weeks after which I had to shutdown due to compelling reasons.
 
-__*s60_server.py*__ : is a python script that should on the Symbian S60 2nd edition phones. I developed and used it on my Nokia N70, which is a Symbian S60 2nd edition FeaturePack-3 phone. You'll need a PyS60 (which is Python for Symbian S60) on the phone to run this.
+* **s60_server.py** : python script to run on any Symbian S60 2nd edition phone. Mine was a Nokia N70 (S60 2nd edition FeaturePack-3). You'll need *Python for Symbian S60* (PyS60) on the phone to run this.
 
-__*shoutjam.py*__ : is the python script that should be run on your PC. You'll need SQLite3 to run this.
+* **shoutjam.py** : python script to run on a Linux computer. Requires SQLite3.
 
-The PC communicates with the Symbian phone via bluetooth. My nokia phone did not have an open protocol to communicate via USB so I had to write a Bluetooth one. That is also the reason why (if you dig into the source  will understand) that a secret command can be set, which when sent, will return the registered user count along with the battery level of the phone (yes you can always put it on charge and leave it that way).
+Computer communicates with the phone via bluetooth. My Nokia phone did not have an open protocol to communicate via USB. So I had to do it over Bluetooth.
 
-Database details and other setup details coming soon...
+A secret SMS command can be set to get back registered user count and the battery level of the phone (yes you can always put it on charge and leave it that way).
 
-
-Story
-------
-
-Everyone has their share of adventures in life. This was one of my best. But the story is for another time, which I'll post it soon (It's just a small but a memorable adventure).
+Database details and other setup details coming someday...
